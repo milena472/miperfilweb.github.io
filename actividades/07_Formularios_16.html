@@ -1,0 +1,35 @@
+
+<html lang="es">
+   <head>
+      <meta charset="UFT-8">
+      <title>Ejemplo 1</title>     
+   </head>
+   <body>
+      <fieldset>
+         <legend>Sus datos:</legend>
+         <label>Nombre: <input type="text"></label> <br/>
+         <label>Email: <input type="text"></label>         
+      </fieldset><br />
+      <fieldset>
+         <legend>Su opinion:</legend>
+         <p>¿Como se enteraron de nosotros?
+
+         <select name="devices">
+         <option value="Google">Google</option>
+         <option value="Radio">Radio</option>
+         <option value="Periodico">Periodico</option></p>
+         </select>
+         <p> ¿Volverias a visitarnos?                    <br />
+         <input type="radio" name="genre" value="Si" checked="checked"/> Si
+         <input type="radio" name="genre" value="No"/> No
+         <input type="radio" name="genre" value="Quizas"/>Quizas
+         </p>
+         <br>Comentarios:<br/>
+         <p><textarea name="comments" cols="30"  rows="4"></textarea><p/>
+        <form action="http://www.example.com/profile.php">
+        <input type="checkbox" name="service" value="correo"/> Incribete para actualizaciones por correo electrónico <br/>
+        <input type="submit" value="Submit review" />
+        </form>     
+      </fieldset>
+   </body>
+</html>
