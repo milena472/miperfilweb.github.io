@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS Selectors</title>
+        <style type="text/css">
+        body {font-family: Tahoma;}
+        th  {text-transform: uppercase; color: #836FB3;}
+        p {padding: 5px; line-height: 1em;}
+        a {color: #FF6666;}            
+        </style>
+    </head>
+    <body>       
+        <h1>CSS Selectors</h1>       
+            <p>Hay muchos tipos diferentes de selector CSS que le permiten orientar las reglas
+             a elementos especificos en un documento HTML.</p>
+            <p>Los selectores CSS distinguen entre mayusculas y minusculas, por lo que deben
+            conincidir exactamente conlos nombre de elemento y los valores de atributo.</p>
+            <table border="3">
+            <caption ="top">Tipos de Selectores
+                </caption>
+                <thead>
+                    <tr>
+                        <th>Selector</th> <th>Significado</th> <th>Ejemplo</th>                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Universal Selector</th>
+                        <td>Se aplica a todos los elementos del documento</td>
+                        <td><a>* {}</a> Se dirige  a todos los elementos de la pagina</td>
+                    </tr>
+                    <tr>
+                        <th>Type Selector</th>
+                        <td>Coincide con los nombres de elemento</td>
+                        <td><a>h2, h2, h3 {}</a> Corresponde a los elementos &lt;h1&gt;,&lt;h2&gt; y &lt;h3&gt; </td>
+                    </tr>
+                    <tr>
+                        <th>Class Selector</th>
+                        <td>Coincide con un elemento cuyo ID atributo tiene un valor que 
+                            corresponda con el especificado despues del simbolo de hash "#"</td>
+                        <td><a>#introduction {}</a> Se dirige  al elemento cuyo atributo ID tiene un valor de introduction</td>
+                    </tr>
+                </tbody>
+            </table>        
+    </body>
+</html>
+
