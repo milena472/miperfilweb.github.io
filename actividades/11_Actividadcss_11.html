@@ -1,24 +1,89 @@
 <html>
     <head>
-        <meta charset="UTF-8">
-        <title>Inheritance</title>
-        <style type="text/css">
-            body {
-                font-family: Arial, Verdana, sans-serif;
-                color: #665544;
-                padding: 10px;}
-            .page {
-                border: 1px solid #665544;
-                background-color: #efefef;
-                padding: inherit;}
-                            
-        </style>
+         <meta charset="UTF-8">
+        <title>Actividad 5</title>
     </head>
+    <style type="text/css">
+            
+        body {                    
+            font-family: 'Open Sans', sans-serif;
+            background-color:#D3DFE8;
+        }
+        h1 {
+            text-align: center;
+            font-family: helvetica;
+            text-transform: uppercase;
+           
+        }
+        
+        article {
+            float: left ;
+	        margin: 10px;
+             margin-right:1px;
+            color: #000;
+	        font-size: 15px;
+	        line-height: 20px;
+	        overflow: hidden;
+            height: 400;
+            width: 380;
+            border: 1px solid #bbb;
+            background: rgb(255, 255, 255);
+            padding: 20px;            
+        }
+        aside {  
+            float: right ;
+	        margin: 10px;
+            margin-left:1px;
+            color: rgb(223, 200, 126);
+	        font-size: 15px;
+	        line-height: 20px;
+	        overflow: hidden;
+            height: 250;
+            width: 360;
+            background: rgb(139, 44, 44);
+            padding: 10px;
+            
+            }
+
+    </style>
     <body>
-         <div class="page"> 
-            <h1>Potatoes</h1>       
-            <p id="intro">Hay <i> muchas</i> variedaddes de <b>papas</b>.</p>
-            <p>Por lo general se conocen las papas: pastusa, sabanera y las papas criollas.</p>         
-         </div>
+    <header>
+        <h1>Los lugares que me gustaria visitar</h1>    
+            <img src="images/dubay.jpg" alt="Imagen de Dubay" title="Imagen de Dubay" width="420" height="200" >
+            <img src="images/costaamalfitana.jpg" alt="costaamalfitana" title="Costa Amalfitana (Italia)" width="420" height="200">
+            <img src="images/londres.jpg" alt="Londres" title="Londres" width="420" height="200">   
+    </header>
+    <section class="wrapper">
+        <section class="main">
+            <article >
+                <h2> <i> Dubay</i></h2>
+                <p>Dubái es uno de los siete emiratos que conforman los Emiratos Árabes Unidos —EAU—y está situado en la costa del Golfo Pérsico, 
+                 en el desierto de Arabia.  Es un pequeño país que durante los últimos años se ha transformado considerablemente gracias a una 
+                 serie de creativos y ambiciosos proyectos arquitectónicos que la han catapultado a la lista de los puntos turísticos más exclusivos y 
+                 lujosos del orbe.  Si eres de los viajeros que no repara en gastos y que le gusta estar a la vanguardia y en los destinos más lujosos,
+                 entonces, deberías viajar a Dubái,  es un país que sin lugar a dudas te sorprenderá con un despliegue de asombrosas y modernas edificaciones,
+                 en las que la exclusividad y el glamour son la constante.</p>
+            </article>
+
+            <article >
+                <h2> <i>Costa Amalfitana (Italia)</i>   </h2>
+                <p>Mar, costa escarpada, montaña e, incluso, volcanes te esperan en  sus lugares,en la hermosa Sicilia. El Etna y el Vesubio vigilan y,
+                  a veces, estallan enfurecidos, pero, en la mayoría de ocasiones, permanecen inalterables y solo sucumben al afán excursionista de los
+                  visitantes.</p>
+                <p>Si lo tuyo es la Historia Antigua, el sur de Italia te enamorará sin remisión. Herculano y Pompeya nos muestran los tesoros7
+                  petrificados de ciudades que detuvieron su reloj. El Valle de los Templos de Agrigento en Sicilia tiene templos griegos mejor 
+                  conservados que los que puedes ver en Grecia, y la Villa Romana del Casale, también en la isla, cuenta con una colección 
+                  de mosaicos que te atrapará.</p> 
+            </article>
+        </section>
+        <aside>
+            <h2><i>Londres</i></h2>
+            <p>Londres es una ciudad cosmopolita, con cientos de atractivos que son de gran interés para los turistas. Cómo organizar
+               tu estancia allí y qué visitar depende enteramente de ti. La ciudad ofrece algo para todos los gustos y edades.
+               Si eres amante del arte te sentirás fascinado por los numerosos museos y galerías, que guardan celosamente 
+               la historia de un gran país.</p>
+        </aside>       
+    </section>
     </body>
 </html>
+       
