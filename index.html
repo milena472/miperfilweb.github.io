@@ -7,28 +7,42 @@
          body {
              text-align: center;
              font-family: 'Times New Roman', Times, serif;
-             
-         }            
+             text-transform: uppercase; }
+
+                    
             th, td {
-                padding: 5px 30px 5px 10px;
+                padding: 5px 0px 5px 10px;
                 border-spacing: 0px;
-                font-size: 90%;
+                font-size: 70%;
                 margin: 0px;}
             th, td {
                 text-align: left;
-                background-color: #e0e9f0;
-                border-top: 1px solid #f1f8fe;
-                border-bottom: 1px solid #cbd2d8;
-                border-right: 1px solid #cbd2d8;}    }
-                td {
-                text-shadow: 1px 1px 1px #ffffff;}                      
+                background-color: #c2e4cb;
+                border-top: 0px solid #ffffff;
+                border-bottom: 0px solid #ffffff;
+                border-right: 0px solid #fffff7;
+                border: 2px solid #ccc;}
+                tr.head th:first-child {
+                -webkit-border-top-left-radius:5px;
+                -moz-border-radius-topleft:5px;
+                border-top-left-radius:5px;} 
+            tr.head th:last-child {
+                -webkit-border-top-right-radius: 5px;
+                -moz-border-radius-topright:5px;
+                border-top-right-radius: 5px;}    
+    
+                                  
                         
-             td,strong {
-                background-color: bisque;
                
-                
-
-            }
+              tr.head th {
+                color: #fff;
+                background-color: #40a88e;
+                border-bottom: 0px solid #fdfdfd;
+                border-right: 0px solid #ffffff;
+                border-top: 0px solid#edeef0;
+                text-align: center;
+                text-shadow: -1px -1px 1px #bb9292;
+                letter-spacing: 0.15em;}      
       
     </style>
 </head>
@@ -36,10 +50,10 @@
 <body>
     <h1>Proyecto De Actividades - Segundo Trimestre</h1>    
     <table border="1" widht="200" align="center">          
-        <tr>
-            <td align="center"><strong>ACTIVIDADES</strong></</td>
-            <td align="center"><strong>ENLACE</strong></td>
-            <td align="center"><strong>DESARROLLO DE ACTIVIDADES</strong></td>
+        <tr class="head">
+            <th align="center">ACTIVIDADES</th>
+            <th align="center">ENLACE</th>
+            <th align="center">DESARROLLO DE ACTIVIDADES</th>
         </tr>
 
         <tr>
