@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Actividad 8 y 9</title>
+        <style type="text/css">
+            body {
+                 font-family:  Arial,Courier, monospace;  background-color: hsl(17, 51%, 81%);
+                 text-align: center;}
+            h1 { text-align: center;}     
+            
+            #logo { width: 150px;  margin: 10px auto 25px auto;}
+            ul { width: 570px; padding:  15px; margin:  0px auto 0px auto; border-top: 2px solid #000; border-bottom: 1px solid #000;
+                text-align: center;}
+            li { display: inline; margin: 0px 3px;}
+            p {text-align: center;}
+            a { color: #000000; text-transform: uppercase; text-decoration: none; padding: 6px 18px 5px 18px;}
+            a:hover, a.on { color: #cc3333; background-color: #ffffff;}        
+            input {
+                padding: 6px 12px 6px 12px;
+                border: 1px solid #ffffff;
+                color: #665544;}
+            input#submit { color: #a75656;
+                           background-color: #665544;
+                           border: none;
+                           border-radius: 5px;
+                           width: 80px;}               
+        </style>
+    </head>
+    <body>
+        <div id="page">
+            <h1>FASHION STORE</h1>
+            <ul id="navigation">
+                <li><a href="#" class="on">Home</a></li>
+                <li><a href="#">Acerca</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+            <p>
+                <img src="images/ropa.jpg" alt="Fender Rhodes, Hohner Clavinet, and Wurlitzer EP200" width="900px" height="500px"/>
+            </p>
+            <hr width="60%" color="black">    
+            
+            <form>Dejanos tus datos:
+                <input type="text" class="text" value="Ingrese un correo electronco..." />
+                <input type="submit" class="submit" id="fenale" name="gender" value="Soy mujer" />
+                <label for="female"></label>
+                <input type="submit" name="gender" value="Soy hombre" />
+                <label for="male"></label>
+            </form>
+
+        </div>
+    </body>
+</html>
